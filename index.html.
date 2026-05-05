@@ -1,34 +1,40 @@
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TOGEL88 - Situs Togel Terpercaya</title>
-    <style>
-        body { background-color: #111; color: #fff; font-family: sans-serif; margin: 0; padding: 0; text-align: center; }
-        .header { background: #000; padding: 15px; border-bottom: 2px solid gold; }
-        .logo { color: gold; font-size: 1.5rem; font-weight: bold; letter-spacing: 2px; }
-        .content { padding: 40px 20px; background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('https://wallpaperaccess.com/full/2231610.jpg'); background-size: cover; min-height: 80vh; }
-        h1 { color: gold; text-shadow: 2px 2px #000; }
-        .btn-login { display: block; background: linear-gradient(gold, #b8860b); color: #000; padding: 15px; margin: 20px auto; width: 80%; border-radius: 25px; text-decoration: none; font-weight: bold; font-size: 1.1rem; }
-        .btn-daftar { color: gold; text-decoration: none; font-weight: bold; font-size: 1rem; border: 1px solid gold; padding: 10px 30px; border-radius: 20px; display: inline-block; margin-top: 10px; }
-        .footer { padding: 20px; font-size: 0.8rem; color: #666; background: #000; }
-    </style>
+    <title>TOGEL88 - Situs Slot & Togel Terpercaya</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="header">
-        <div class="logo">TOGEL88</div>
-    </div>
-    <div class="content">
-        <h1>SELAMAT DATANG</h1>
-        <p>Situs Khusus Togel Online Aman & Terpercaya</p>
-        <a href="#" class="btn-login">LOGIN MEMBER</a>
-        <p>Belum punya akun?</p>
-        <a href="#" class="btn-daftar">DAFTAR</a>
-    </div>
-    <div class="footer">
-        &copy; 2026 TOGEL88. All Rights Reserved.
+    <div class="container">
+        <header>
+            <h1 class="logo">TOGEL<span>88</span></h1>
+            <p>Situs Resmi Game Online Terlengkap</p>
+        </header>
+
+        <div class="banner">
+            <img src="https://via.placeholder.com/800x400/000000/FFD700?text=JP+PAUS+HARI+INI" alt="Banner Togel88">
+        </div>
+
+        <div class="action-buttons">
+            <a href="#" class="btn login">LOGIN</a>
+            <a href="#" class="btn register">DAFTAR</a>
+        </div>
+
+        <div class="info-section">
+            <h2>Kenapa Memilih TOGEL88?</h2>
+            <ul>
+                <li>✅ Proses Depo & WD Tercepat</li>
+                <li>✅ Layanan CS 24 Jam Nonstop</li>
+                <li>✅ Bonus Melimpah Setiap Hari</li>
+                <li>✅ Keamanan Data Terjamin</li>
+            </ul>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 HOKI-TOGEL88. All Rights Reserved.</p>
+        </footer>
     </div>
 </body>
 </html>
