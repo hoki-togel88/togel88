@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOBY UTAMA | TOGEL88</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="lobby-bg">
+    <div class="moving-grid"></div>
+
+    <div id="modal-rules" class="modal-overlay">
+        <div class="modal-content 3d-pop">
+            <h2 class="neon-text">⚠️ PERATURAN SITUS ⚠️</h2>
+            <div class="rules-body">
+                <p>1. Minimal Deposit: <strong>Rp 10.000</strong></p>
+                <p>2. Minimal Withdraw: <strong>Rp 50.000</strong></p>
+                <p>3. Dilarang keras melakukan penipuan bukti transfer.</p>
+                <p>4. Gunakan data rekening yang valid untuk kelancaran WD.</p>
+            </div>
+            <button class="btn-glow" onclick="closeRules()">SAYA MENGERTI</button>
+        </div>
+    </div>
+
+    <header class="lobby-header">
+        <div class="user-info">
+            <i class="fas fa-user-circle"></i>
+            <span id="username">Bosque_Hoki</span>
+            <div class="balance-box">
+                <small>Saldo Anda:</small>
+                <span id="balance">Rp 1.500.000</span>
+            </div>
+        </div>
+        <div class="server-time">
+            <i class="fas fa-clock"></i> <span id="clock">00:00:00 WIB</span>
+        </div>
+    </header>
+
+    <div class="marquee-container">
+        <marquee>SELAMAT DATANG DI TOGEL88 - SITUS PASARAN TERLENGKAP DI DUNIA - JP BERAPAPUN PASTI DIBAYAR LUNAS! - INFO HUBUNGI LIVECHAT</marquee>
+    </div>
+
+    <nav class="main-nav">
+        <button class="nav-item active" onclick="showTab('home')"><i class="fas fa-home"></i> HOME</button>
+        <button class="nav-item" onclick="showTab('depo')"><i class="fas fa-wallet"></i> DEPOSIT</button>
+        <button class="nav-item" onclick="showTab('wd')"><i class="fas fa-money-bill-wave"></i> WITHDRAW</button>
+        <button class="nav-item" onclick="window.location.href='index.html'"><i class="fas fa-sign-out-alt"></i> KELUAR</button>
+    </nav>
+
+    <main class="content-area">
+        <div id="home-tab" class="tab-content">
+            <h3 class="section-title">DAFTAR PASARAN HARI INI</h3>
+            <div class="table-responsive">
+                <table class="market-table">
+                    <thead>
+                        <tr>
+                            <th>PASARAN</th>
+                            <th>HASIL</th>
+                            <th>TUTUP</th>
+                            <th>JADWAL</th>
+                            <th>STATUS</th>
+                        </tr>
+                    </thead>
+                    <tbody id="market-list">
+                        </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <div class="floating-mascot">
+        <img src="https://i.ibb.co/V938LpX/pngwing-com-1.png" alt="Mascot">
+        <div class="chat-bubble">Ayo Pasang Bos!</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
