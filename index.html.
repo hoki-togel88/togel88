@@ -1,39 +1,233 @@
-id">
+<!DOCTYPE html>
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TOGEL88 - Situs Slot & Togel Terpercaya</title>
-    <link rel="stylesheet" href="style.css">
+    <title>HOKI-TOGEL88 | PUSAT TOGEL DUNIA TERPERCAYA</title>
+    <style>
+        /* CSS DASAR & TEMA MEWAH */
+        :root {
+            --gold: #ffd700;
+            --dark-gold: #b8860b;
+            --black: #050505;
+            --glass: rgba(255, 215, 0, 0.1);
+        }
+
+        body {
+            background-color: var(--black);
+            background-image: radial-gradient(circle at center, #1a1a1a 0%, #050505 100%);
+            color: white;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        /* ANIMASI HEADER GLOW */
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(180deg, rgba(184, 134, 11, 0.2) 0%, transparent 100%);
+        }
+
+        .logo-text {
+            font-size: 3rem;
+            font-weight: bold;
+            color: var(--gold);
+            text-shadow: 0 0 15px var(--dark-gold);
+            margin: 0;
+            animation: pulseGlow 2s infinite alternate;
+        }
+
+        @keyframes pulseGlow {
+            from { transform: scale(1); text-shadow: 0 0 10px var(--gold); }
+            to { transform: scale(1.05); text-shadow: 0 0 25px var(--gold), 0 0 40px white; }
+        }
+
+        /* TABEL PASARAN KOMPREHENSIF */
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 20px;
+            position: relative;
+        }
+
+        .table-box {
+            background: rgba(20, 20, 20, 0.9);
+            border: 2px solid var(--dark-gold);
+            border-radius: 15px;
+            box-shadow: 0 0 30px rgba(0,0,0,1);
+            overflow: hidden;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th {
+            background: linear-gradient(to bottom, var(--gold), var(--dark-gold));
+            color: black;
+            padding: 15px;
+            text-transform: uppercase;
+            font-size: 14px;
+        }
+
+        td {
+            padding: 15px;
+            text-align: center;
+            border-bottom: 1px solid #222;
+            font-size: 13px;
+        }
+
+        tr:hover { background: var(--glass); }
+
+        .status-open { color: #00ff00; font-weight: bold; animation: blink 1s infinite; }
+        .status-closed { color: #ff0000; font-weight: bold; opacity: 0.6; }
+
+        @keyframes blink { 50% { opacity: 0.3; } }
+
+        .btn-bet {
+            background: linear-gradient(to right, #ff4500, #ff8c00);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border: 1px solid var(--gold);
+            transition: 0.3s;
+        }
+
+        .btn-bet:hover { transform: translateY(-3px); box-shadow: 0 5px 15px rgba(255, 69, 0, 0.4); }
+
+        /* MASKOT 2D ANIMASI */
+        .mascot {
+            position: fixed;
+            bottom: -20px;
+            right: -30px;
+            width: 350px;
+            z-index: 10;
+            pointer-events: none;
+            animation: floatMascot 4s ease-in-out infinite;
+        }
+
+        @keyframes floatMascot {
+            0%, 100% { transform: translateY(0) rotate(0); }
+            50% { transform: translateY(-30px) rotate(2deg); }
+        }
+
+        /* TOMBOL WA & CHAT MELAYANG */
+        .fixed-contact {
+            position: fixed;
+            bottom: 30px;
+            left: 30px;
+            z-index: 100;
+        }
+
+        .contact-link {
+            display: flex;
+            align-items: center;
+            background: #25d366;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 50px;
+            text-decoration: none;
+            margin-bottom: 10px;
+            font-weight: bold;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+            transition: 0.3s;
+        }
+
+        .contact-link.chat { background: #007bff; }
+        .contact-link:hover { transform: scale(1.1); }
+        .contact-link img { width: 24px; margin-right: 10px; }
+
+        /* RESPONSIVE UNTUK HP */
+        @media screen and (max-width: 600px) {
+            .mascot { width: 180px; right: -10px; }
+            .logo-text { font-size: 2rem; }
+            td, th { padding: 8px; font-size: 11px; }
+            .btn-bet { padding: 5px 10px; }
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1 class="logo">TOGEL<span>88</span></h1>
-            <p>Situs Resmi Game Online Terlengkap</p>
-        </header>
 
-        <div class="banner">
-            <img src="https://via.placeholder.com/800x400/000000/FFD700?text=JP+PAUS+HARI+INI" alt="Banner Togel88">
-        </div>
+<header>
+    <h1 class="logo-text">TOGEL88 DUNIA</h1>
+    <p style="color: var(--gold);">Situs Resmi Pasaran Terlengkap & Terpercaya</p>
+</header>
 
-        <div class="action-buttons">
-            <a href="#" class="btn login">LOGIN</a>
-            <a href="#" class="btn register">DAFTAR</a>
-        </div>
-
-        <div class="info-section">
-            <h2>Kenapa Memilih TOGEL88?</h2>
-            <ul>
-                <li>✅ Proses Depo & WD Tercepat</li>
-                <li>✅ Layanan CS 24 Jam Nonstop</li>
-                <li>✅ Bonus Melimpah Setiap Hari</li>
-                <li>✅ Keamanan Data Terjamin</li>
-            </ul>
-        </div>
-
-        <footer>
-            <p>&copy; 2024 HOKI-TOGEL88. All Rights Reserved.</p>
-        </footer>
+<div class="container">
+    <div class="table-box">
+        <table>
+            <thead>
+                <tr>
+                    <th>PASARAN</th>
+                    <th>TUTUP</th>
+                    <th>UNDI</th>
+                    <th>STATUS</th>
+                    <th>ACTION</th>
+                </tr>
+            </thead>
+            <tbody id="list-pasaran">
+                </tbody>
+        </table>
     </div>
+</div>
+
+<img src="https://i.ibb.co/V938LpX/pngwing-com-1.png" class="mascot" alt="Mascot Hoki">
+
+<div class="fixed-contact">
+    <a href="https://wa.me/NOMOR_WA_LU" class="contact-link">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WA"> Hubungi Admin
+    </a>
+    <a href="#" class="contact-link chat">
+        <img src="https://cdn-icons-png.flaticon.com/512/5962/5962463.png" alt="Chat"> Live Chat
+    </a>
+</div>
+
+<script>
+    // DATA PASARAN KOMPREHENSIF (24 JAM)
+    const daftarPasaran = [
+        {nama: "TOTO MACAU P1", tutup: "13:00", undi: "13:15", status: "OPEN"},
+        {nama: "SYDNEY (SDY)", tutup: "13:20", undi: "13:50", status: "OPEN"},
+        {nama: "CHINA", tutup: "15:00", undi: "15:30", status: "OPEN"},
+        {nama: "TOTO MACAU P2", tutup: "16:00", undi: "16:15", status: "OPEN"},
+        {nama: "JAPAN", tutup: "17:00", undi: "17:20", status: "OPEN"},
+        {nama: "SINGAPORE (SGP)", tutup: "17:30", undi: "17:45", status: "OPEN"},
+        {nama: "TOTO MACAU P3", tutup: "19:00", undi: "19:15", status: "OPEN"},
+        {nama: "PCSO (FILIPINA)", tutup: "19:30", undi: "20:10", status: "OPEN"},
+        {nama: "TAIWAN", tutup: "20:35", undi: "20:45", status: "OPEN"},
+        {nama: "TOTO MACAU P4", tutup: "22:00", undi: "22:15", status: "OPEN"},
+        {nama: "HONGKONG (HK)", tutup: "22:30", undi: "23:00", status: "OPEN"},
+        {nama: "KENTUCKY MID", tutup: "00:00", undi: "00:20", status: "OPEN"},
+        {nama: "FLORIDA MID", tutup: "00:50", undi: "01:15", status: "OPEN"},
+        {nama: "OREGON 03", tutup: "02:45", undi: "03:00", status: "OPEN"},
+        {nama: "TEXAS DAY", tutup: "03:00", undi: "03:20", status: "OPEN"},
+        {nama: "CALIFORNIA", tutup: "09:00", undi: "09:20", status: "OPEN"},
+        {nama: "NEW YORK EVE", tutup: "10:00", undi: "10:30", status: "OPEN"}
+    ];
+
+    const tbody = document.getElementById('list-pasaran');
+    
+    function renderPasaran() {
+        tbody.innerHTML = '';
+        daftarPasaran.forEach(p => {
+            tbody.innerHTML += `
+                <tr>
+                    <td><strong>${p.nama}</strong></td>
+                    <td>${p.tutup} WIB</td>
+                    <td>${p.undi} WIB</td>
+                    <td class="${p.status === 'OPEN' ? 'status-open' : 'status-closed'}">${p.status}</td>
+                    <td><a href="#" class="btn-bet">BET SEKARANG</a></td>
+                </tr>
+            `;
+        });
+    }
+
+    renderPasaran();
+</script>
+
 </body>
 </html>
